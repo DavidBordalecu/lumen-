@@ -1,0 +1,17 @@
+[package]
+name = "lumen"
+version = "0.1.0"
+edition = "2021"
+description = "Procesador de textos para terminal Linux con contexto creativo."
+license = "MIT"
+
+[dependencies]
+crossterm = "0.28.1"
+ratatui = "0.29.0"
+ropey = "1.6.1"
+spellbook = "0.4"
+unicode-width = "0.2.0"
+zip = "0.6"
+quick-xml = "0.31"
+toml = "0.8"
+serde = { version = "1", features = ["derive"] }
